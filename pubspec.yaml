@@ -1,8 +1,8 @@
 name: onetimeintro
 description: A flutter package with a one time only intro carousel using shared_preference.
 version: 0.0.1
-author: Shivam Verma <shivamthegreat.sv@gmail.com>
-homepage:
+author: Shivam Verma<shivamthegreat.sv@gmail.com>
+homepage: https://github.com/sarcastic-verma/one_time_intro
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  shared_preferences: ^0.5.7
+  carousel_slider: ^2.0.0
 
 dev_dependencies:
   flutter_test:

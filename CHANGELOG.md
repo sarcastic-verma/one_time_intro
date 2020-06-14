@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 2020-06-14
 
-* TODO: Describe initial release.
+* A flutter package with a one time only intro carousel using shared_preference.
