@@ -6,8 +6,9 @@ import 'Content.dart';
 class OneTimeScreen extends StatelessWidget {
   static const String id = "/intro";
   final Decoration decoration;
+  final double height;
   final List<Content> items;
-  OneTimeScreen({this.decoration, @required this.items});
+  OneTimeScreen({this.height, this.decoration, @required this.items});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,7 +19,7 @@ class OneTimeScreen extends StatelessWidget {
       child: CarouselSlider(
         items: items,
         options: CarouselOptions(
-          height: 400,
+          height: height,
           scrollPhysics: BouncingScrollPhysics(),
           enlargeCenterPage: true,
           enableInfiniteScroll: false,
